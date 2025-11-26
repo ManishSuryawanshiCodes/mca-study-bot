@@ -2,8 +2,6 @@
 Vector Store Module - Qdrant Cloud Edition
 Supports 300+ concurrent students with proper document tracking
 """
-
-import chromadb
 from qdrant_client import QdrantClient
 from qdrant_client.models import (
     Distance, VectorParams, PointStruct, Filter, 
