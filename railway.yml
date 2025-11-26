@@ -1,0 +1,14 @@
+build:
+  builder: dockerfile
+  dockerfile: Dockerfile
+
+deploy:
+  numReplicas: 1
+  startCommand: streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+
+env:
+  GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+  QDRANT_URL: ${{ secrets.QDRANT_URL }}
+  QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
+  USE_QDRANT: "True"
+  ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}

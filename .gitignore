@@ -1,0 +1,48 @@
+# Cache directories
+.cache
+.streamlit/cache
+.streamlit/tmp
+
+# Virtual environment directory
+venv
+
+# Log files
+*.log
+*.txt
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# IDE-specific files
+.vscode
+.idea
+.sublime_text
+
+# Build artifacts
+__pycache__
+build
+dist
+
+# Temporary files
+*.tmp
+*.tmp.*
+*.swp
+*.swo
+
+# IDE-specific configuration files
+.env
+.env.local
+.env.test
+.env.development
+
+# Generated files
+*.lock
+*.lock.*
+*.pyd
+
+# Miscellaneous files
+*.DS_Store
+*.pyc
+*.swp
+*.swo
