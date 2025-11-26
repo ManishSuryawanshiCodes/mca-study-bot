@@ -7,4 +7,7 @@ pdfplumber
 groq
 python-dotenv
 requests
+qdrant-client==1.7.2
+qdrant-client==1.6.9
+
 
